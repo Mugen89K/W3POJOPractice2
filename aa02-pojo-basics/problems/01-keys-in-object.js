@@ -17,10 +17,13 @@ let foods = {apple: 'tart', lemon: 'sour', mango: 'sweet'}
 
 
 function keysInObject(obj) {
-    for (let key in obj) {
-      console.log(key);
 
-    };
+  console.log(Object.keys(obj));
+
+  // for (let key in obj) {
+    //   console.log(key);
+
+    // };
 };
 
 keysInObject(animals); // => ["dog", "cat", "bison"]
